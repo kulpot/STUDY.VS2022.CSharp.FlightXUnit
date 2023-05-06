@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flight", "FlightXUnit\Flight.csproj", "{7AC8B918-0B99-4537-9144-03F4868FEDD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Tests", "Domain.Tests\Domain.Tests.csproj", "{5669230F-9223-44BE-9547-A7FABF08F7FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{1BAAD944-BB31-4EF0-98D2-699D06C7AD31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AC8B918-0B99-4537-9144-03F4868FEDD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AC8B918-0B99-4537-9144-03F4868FEDD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AC8B918-0B99-4537-9144-03F4868FEDD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AC8B918-0B99-4537-9144-03F4868FEDD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5669230F-9223-44BE-9547-A7FABF08F7FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5669230F-9223-44BE-9547-A7FABF08F7FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5669230F-9223-44BE-9547-A7FABF08F7FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5669230F-9223-44BE-9547-A7FABF08F7FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BAAD944-BB31-4EF0-98D2-699D06C7AD31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BAAD944-BB31-4EF0-98D2-699D06C7AD31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BAAD944-BB31-4EF0-98D2-699D06C7AD31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BAAD944-BB31-4EF0-98D2-699D06C7AD31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BFCDAD1E-6010-4670-9146-05044F007307}
+	EndGlobalSection
+EndGlobal
